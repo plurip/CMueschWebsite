@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>Plurip Software and Web Development</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#">Über Mich</a></li>
+                <li><a href="#">Leistungen</a></li>
+                <li><a href="#">Infos</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+	<img src="images/cmueschLogo2.png" style="position:absolute;left:40px;top:7px;"/>
+    <br />
+    <br />
+    <br />
+    <main>
+        <div id="sidebarLeft">
+            <!--<article>-->
+            <br />
+                <h1>Kontaktdaten</h1>
+                <p>
+                    Name: Christian Müsch<br />
+                    Tel.: 0157 / 88967073<br />
+                    Mail: christian.muesch@web.de<br />
+                    <br />
+                    42277 Wuppertal-Oberbarmen
+                </p>
+                <hr />
+                <ul id="sidebarMenu">
+                    <li><div>Beratung Wohngebäude </div>
+                    </li>
+                    <li><div>Beratung Industrie</div>
+                        <ul>
+                            <li><div>Energieberatung Mittelstand</div></li>
+                            <li><div>Querschnittstechnologie </div></li>
+                            <li><div>Energiemanagementsystem</div></li>
+                        </ul>
+                    </li>
+                    <li><div>Energiemanagementsysteme</div>
+                        <ul>
+                            <li><div>SpaEfV</div></li>
+                            <li><div>DIN-ISO-50001</div></li>
+                            <li><div>DIN-16247(EDL-G)</div></li>
+                        </ul>
+                    </li>
+                    <li><div>Stromsteuererstattung</div>
+                        <ul>
+                            <li><div>Besondere Ausgleichsregelung</div></li>
+                            <li><div>Neuerungen 2017</div></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <!--</article>-->
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#end">Über mich</a></li>
+            <li><a href="#end">Impressum</a></li>
+            <li><a href="#end">Kontakt</a></li>
+        </ul>
+        <p id="copyright">
+            &copy; 2017 - PluRip-Software
+        </p>
+    </footer>
+    <div id="end"></div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $("#sidebarMenu").menu();
+    </script>
+</body>
+</html>
